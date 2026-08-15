@@ -1,0 +1,13 @@
+/.quarto/
+
+**/*.quarto_ipynb
+*_cache/*
+*/figure-pdf/*
+
+/.luarc.json
+
+.venv/
+.Rproj.user/
+.DS_Store
+.RData
+.Rhistory
