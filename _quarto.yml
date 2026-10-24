@@ -1,7 +1,22 @@
 project:
   type: book
   output-dir: .
-
+execute:
+  dir: file
+  warning: false
+  message: false
+  fig-width: 6
+  fig-height: 6
+  cache: true
+  freeze: true
+from: markdown+tex_math_single_backslash+tex_math_dollars
+filters:
+  - shinylive
+author:
+  - name: "Longhai Li"
+    affiliation: "University of Saskatchewan"
+    url: "https://longhaisk.github.io/"
+date: last-modified
 book:
   title: "Theory of Linear Models"
   output-file: "stat_lin_theory"
@@ -21,5 +36,6 @@ book:
     - lec6-test.qmd
     - lec7-ginv.qmd
     - lec8-nonfullrank.qmd
-metadata-files:
-  - resources/bookstyles.yml
+format:
+  custombook-html: default
+  custombook-pdf: default

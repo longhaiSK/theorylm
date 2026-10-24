@@ -16,6 +16,18 @@ Sys.setenv(RENV_CONFIG_SANDBOX_ENABLED = FALSE)
 
 # Preface {.unnumbered}
 
+## Table of Contents {.unnumbered}
+
+1.  [Introduction](introlm.qmd)
+2.  [Projection in Vector Space](lec1-vecspace.qmd)
+3.  [Matrix Algebra](lec2-matrix.qmd)
+4.  [Multivariate Normal Distribution](lec3-mvn.qmd)
+5.  [Distribution of Quadratic Forms](lec4-qf.qmd)
+6.  [Inference for A Multiple Linear Regression Model](lec5-est.qmd)
+7.  [Hypothesis Testing in Linear Models](lec6-test.qmd)
+8.  [Generalized Inverses](lec7-ginv.qmd)
+9.  [Estimation and Inference with Non-full-rank Models](lec8-nonfullrank.qmd)
+
 ## Key Features {.unnumbered}
 
 This text adopts a geometric approach to the statistical theory of linear models, aiming to provide a deeper understanding than standard algebraic treatments. Key features include:
